@@ -4,7 +4,7 @@ import { readPDF, readTextFile, readDocx } from "./fileutils";
 
 // Backend API endpoint - Update this with your deployed backend URL
 const BACKEND_URL = process.env.NODE_ENV === "production" 
-  ? "https://your-backend-url.vercel.app"  // Replace with your actual backend URL
+  ? "https://llm-chatbot-main-5.onrender.com"  // Replace with your actual backend URL
   : "http://localhost:8000";
 
 function ChatBot() {
